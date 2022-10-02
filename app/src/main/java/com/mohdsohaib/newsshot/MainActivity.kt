@@ -10,8 +10,9 @@ import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
 
-const val TAG = "JAMIA"
+
 class MainActivity : AppCompatActivity() {
+    val TAG = "JAMIA"
     lateinit var adapter: NewsAdapter
     private var results = mutableListOf<Results>()
     override fun onCreate(savedInstanceState: Bundle?) {
